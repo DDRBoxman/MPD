@@ -62,8 +62,10 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
     implementation("androidx.navigation:navigation-compose:2.7.6")
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
 
     implementation("com.github.alorma:compose-settings-ui-m3:1.0.3")
+    implementation("com.github.alorma:compose-settings-storage-datastore:1.0.3")
     implementation("com.github.alorma:compose-settings-storage-preferences:1.0.3")
     implementation("com.google.accompanist:accompanist-permissions:0.33.2-alpha")
 
