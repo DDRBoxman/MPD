@@ -8,7 +8,7 @@
 
 #include <string_view>
 
-#include <yajl/yajl_parse.h>
+#include <yajl_parse.h>
 
 namespace Yajl {
 

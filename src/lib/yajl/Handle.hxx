@@ -4,7 +4,7 @@
 #ifndef YAJL_HANDLE_HXX
 #define YAJL_HANDLE_HXX
 
-#include <yajl/yajl_parse.h>
+#include <yajl_parse.h>
 
 #include <utility>
 
