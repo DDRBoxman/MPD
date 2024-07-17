@@ -267,10 +267,6 @@ if is_windows
 endif
 
 if is_android
-  # With ndk27 libcpp doesn't seem to have a rune table defined for the 
-  # localization module, tell it to use the one it ships with
-  common_cppflags += ['-D_LIBCPP_PROVIDES_DEFAULT_RUNE_TABLE']
-
   subdir('android')
 endif
 
